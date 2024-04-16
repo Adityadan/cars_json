@@ -1,112 +1,117 @@
 [
-  {
-    "type": "SUV",
-    "name": "Toyota RAV4",
-    "country": "Japan",
-    "performance": {
-      "topSpeed": "130 mph",
-      "cruiseSpeed": "60 mph",
-      "range": "400 miles"
+    {
+        "id": 1,
+        "name": "Boeing 747",
+        "type": "Wide-body jet airliner",
+        "country": "United States",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": "February 9, 1969",
+        "introduced": "January 22, 1970",
+        "performance": {
+            "topSpeed": 988,
+            "cruiseSpeed": 913,
+            "range": 7240,
+            "combatRange": null,
+            "serviceCeiling": 13716
+        },
+        "features": ["Four-engine", "Double-deck", "Long-haul"],
+        "dimension": {
+            "length": 70,
+            "wingspan": 64,
+            "height": 19
+        },
+        "imageUrl": "https://example.com/boeing747.jpg"
     },
-    "car_features": ["All-wheel drive", "Adaptive cruise control", "Lane departure warning"]
-  },
-  {
-    "type": "Sedan",
-    "name": "BMW 3 Series",
-    "country": "Germany",
-    "performance": {
-      "topSpeed": "155 mph",
-      "cruiseSpeed": "70 mph",
-      "range": "450 miles"
+    {
+        "id": 2,
+        "name": "Airbus A380",
+        "type": "Double-deck, wide-body, four-engine jet airliner",
+        "country": "Multi-national",
+        "manufacturer": "Airbus",
+        "firstFlight": "April 27, 2005",
+        "introduced": "October 25, 2007",
+        "performance": {
+            "topSpeed": 1020,
+            "cruiseSpeed": 945,
+            "range": 8100,
+            "combatRange": null,
+            "serviceCeiling": 13100
+        },
+        "features": ["Four-engine", "Double-deck", "Long-haul"],
+        "dimension": {
+            "length": 72,
+            "wingspan": 80,
+            "height": 24
+        },
+        "imageUrl": "https://example.com/airbusa380.jpg"
     },
-    "car_features": ["Navigation system", "Leather seats", "Sunroof"]
-  },
-  {
-    "type": "Electric",
-    "name": "Tesla Model S",
-    "country": "USA",
-    "performance": {
-      "topSpeed": "155 mph",
-      "cruiseSpeed": "65 mph",
-      "range": "375 miles"
+    {
+        "id": 3,
+        "name": "Boeing 737",
+        "type": "Narrow-body jet airliner",
+        "country": "United States",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": "April 9, 1967",
+        "introduced": "February 10, 1968",
+        "performance": {
+            "topSpeed": 943,
+            "cruiseSpeed": 834,
+            "range": 2925,
+            "combatRange": null,
+            "serviceCeiling": 12500
+        },
+        "features": ["Twin-engine", "Single-aisle"],
+        "dimension": {
+            "length": 102,
+            "wingspan": 117,
+            "height": 41
+        },
+        "imageUrl": "https://example.com/boeing737.jpg"
     },
-    "car_features": ["Autopilot", "Large touchscreen display", "Over-the-air updates"]
-  },
-  {
-    "type": "Hatchback",
-    "name": "Volkswagen Golf",
-    "country": "Germany",
-    "performance": {
-      "topSpeed": "130 mph",
-      "cruiseSpeed": "55 mph",
-      "range": "350 miles"
+    {
+        "id": 4,
+        "name": "Airbus A320",
+        "type": "Narrow-body jet airliner",
+        "country": "Multi-national",
+        "manufacturer": "Airbus",
+        "firstFlight": "February 22, 1987",
+        "introduced": "April 28, 1988",
+        "performance": {
+            "topSpeed": 946,
+            "cruiseSpeed": 828,
+            "range": 5700,
+            "combatRange": null,
+            "serviceCeiling": 12500
+        },
+        "features": ["Twin-engine", "Single-aisle"],
+        "dimension": {
+            "length": 38,
+            "wingspan": 35,
+            "height": 12
+        },
+        "imageUrl": "https://example.com/airbusa320.jpg"
     },
-    "car_features": ["Apple CarPlay", "Android Auto", "Front assist"]
-  },
-  {
-    "type": "Coupe",
-    "name": "Chevrolet Camaro",
-    "country": "USA",
-    "performance": {
-      "topSpeed": "165 mph",
-      "cruiseSpeed": "75 mph",
-      "range": "300 miles"
-    },
-    "car_features": ["Heads-up display", "Brembo brakes", "Performance exhaust"]
-  },
-  {
-    "type": "Truck",
-    "name": "Ford F-150",
-    "country": "USA",
-    "performance": {
-      "topSpeed": "120 mph",
-      "cruiseSpeed": "55 mph",
-      "range": "450 miles"
-    },
-    "car_features": ["Towing capacity up to 13,200 lbs", "Pro Trailer Backup Assist", "Ford Co-Pilot360"]
-  },
-  {
-    "type": "Convertible",
-    "name": "Mazda MX-5 Miata",
-    "country": "Japan",
-    "performance": {
-      "topSpeed": "135 mph",
-      "cruiseSpeed": "65 mph",
-      "range": "300 miles"
-    },
-    "car_features": ["Retractable hardtop", "Bose audio system", "Smartphone integration"]
-  },
-  {
-    "type": "Luxury",
-    "name": "Mercedes-Benz S-Class",
-    "country": "Germany",
-    "performance": {
-      "topSpeed": "155 mph",
-      "cruiseSpeed": "70 mph",
-      "range": "400 miles"
-    },
-    "car_features": ["MBUX infotainment system", "Magic Body Control", "Active multi-contour seats"]
-  },
-  {
-    "type": "Crossover",
-    "name": "Honda CR-V",
-    "country": "Japan",
-    "performance": {
-      "topSpeed": "125 mph",
-      "cruiseSpeed": "60 mph",
-      "range": "380 miles"
-    },
-    "car_features": ["Honda Sensing Suite", "Power tailgate", "Apple CarPlay / Android Auto integration"]
-  },
-  {
-    "type": "Sports",
-    "name": "Porsche 911",
-    "country": "Germany",
-    "performance": {
-      "topSpeed": "190 mph",
-      "cruiseSpeed": "85 mph",
-      "range": "300 miles"
-    },
-    "car_features": ["Porsche Communication Management", "PASM sport suspension", "Sport Chrono Package"]
-  }
+    {
+        "id": 5,
+        "name": "Boeing 777",
+        "type": "Wide-body jet airliner",
+        "country": "United States",
+        "manufacturer": "Boeing Commercial Airplanes",
+        "firstFlight": "June 12, 1994",
+        "introduced": "June 7, 1995",
+        "performance": {
+            "topSpeed": 990,
+            "cruiseSpeed": 905,
+            "range": 11095,
+            "combatRange": null,
+            "serviceCeiling": 13100
+        },
+        "features": ["Twin-engine", "Long-range"],
+        "dimension": {
+            "length": 63,
+            "wingspan": 65,
+            "height": 19
+        },
+        "imageUrl": "https://example.com/boeing777.jpg"
+    }
 ]
