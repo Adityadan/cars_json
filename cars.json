@@ -16,7 +16,7 @@
       "Navigation System",
       "Backup Camera"
     ],
-    "imageUrl": "https://example.com/toyota_camry.jpg"
+    "imageUrl": "https://auto2000.co.id/berita-dan-tips/_next/image?url=https%3A%2F%2Fastradigitaldigiroomuat.blob.core.windows.net%2Fstorage-uat-001%2Fkelebihan-toyota-camry.png&w=3840&q=75"
   },
   {
     "id": 2,
@@ -35,7 +35,7 @@
       "Sports Suspension",
       "Convertible Top"
     ],
-    "imageUrl": "https://example.com/ford_mustang.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ford_Mustang_VI_IMG_2513.jpg/1200px-Ford_Mustang_VI_IMG_2513.jpg"
   },
   {
     "id": 3,
@@ -54,7 +54,7 @@
       "Heated Seats",
       "Gesture Control"
     ],
-    "imageUrl": "https://example.com/bmw_x5.jpg"
+    "imageUrl": "https://imgcdn.oto.com/large/gallery/exterior/3/2150/bmw-x5-front-angle-low-view-833566.jpg"
   },
   {
     "id": 4,
@@ -73,7 +73,7 @@
       "Apple CarPlay",
       "Android Auto"
     ],
-    "imageUrl": "https://example.com/honda_civic.jpg"
+    "imageUrl": "https://www.otoinfo.id/wp-content/uploads/2024/02/Wow-Keunggulan-Revolusioner-All-New-Honda-Civic-Type-R-2024-Bikin-Mata-Melotot-Apa-Saja-Fitur-dan-Performa-Memukau.jpg"
   },
   {
     "id": 5,
@@ -92,6 +92,6 @@
       "Bang & Olufsen Sound System",
       "Adaptive Cruise Control"
     ],
-    "imageUrl": "https://example.com/audi_a4.jpg"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/1200px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg"
   }
 ]
