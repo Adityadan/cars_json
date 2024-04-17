@@ -1,117 +1,132 @@
 [
     {
         "id": 1,
-        "name": "Boeing 747",
-        "type": "Wide-body jet airliner",
-        "country": "United States",
-        "manufacturer": "Boeing Commercial Airplanes",
-        "firstFlight": "February 9, 1969",
-        "introduced": "January 22, 1970",
+        "name": "Bugatti Chiron",
+        "type": "Hypercar",
+        "country": "France",
+        "manufacturer": "Bugatti Automobiles S.A.S.",
+        "firstProduction": "2016",
         "performance": {
-            "topSpeed": 988,
-            "cruiseSpeed": 913,
-            "range": 7240,
-            "combatRange": null,
-            "serviceCeiling": 13716
+            "topSpeed": 304,
+            "acceleration": {
+                "0to60": 2.3,
+                "quarterMile": 9.4
+            },
+            "engine": {
+                "power": 1479,
+                "torque": 1600
+            }
         },
-        "features": ["Four-engine", "Double-deck", "Long-haul"],
+        "features": ["Quad-turbocharged", "W16 Engine", "Carbon Fiber Body"],
         "dimension": {
-            "length": 70,
-            "wingspan": 64,
-            "height": 19
+            "length": 4400,
+            "width": 2000,
+            "height": 1212
         },
-        "imageUrl": "https://example.com/boeing747.jpg"
+        "imageUrl": "https://example.com/bugatti_chiron.jpg"
     },
     {
         "id": 2,
-        "name": "Airbus A380",
-        "type": "Double-deck, wide-body, four-engine jet airliner",
-        "country": "Multi-national",
-        "manufacturer": "Airbus",
-        "firstFlight": "April 27, 2005",
-        "introduced": "October 25, 2007",
+        "name": "Lamborghini Aventador",
+        "type": "Supercar",
+        "country": "Italy",
+        "manufacturer": "Automobili Lamborghini S.p.A.",
+        "firstProduction": "2011",
         "performance": {
-            "topSpeed": 1020,
-            "cruiseSpeed": 945,
-            "range": 8100,
-            "combatRange": null,
-            "serviceCeiling": 13100
+            "topSpeed": 350,
+            "acceleration": {
+                "0to60": 2.9,
+                "quarterMile": 10.7
+            },
+            "engine": {
+                "power": 770,
+                "torque": 720
+            }
         },
-        "features": ["Four-engine", "Double-deck", "Long-haul"],
+        "features": ["V12 Engine", "Carbon Fiber Monocoque", "All-wheel Drive"],
         "dimension": {
-            "length": 72,
-            "wingspan": 80,
-            "height": 24
+            "length": 4847,
+            "width": 2030,
+            "height": 1136
         },
-        "imageUrl": "https://example.com/airbusa380.jpg"
+        "imageUrl": "https://example.com/lamborghini_aventador.jpg"
     },
     {
         "id": 3,
-        "name": "Boeing 737",
-        "type": "Narrow-body jet airliner",
-        "country": "United States",
-        "manufacturer": "Boeing Commercial Airplanes",
-        "firstFlight": "April 9, 1967",
-        "introduced": "February 10, 1968",
+        "name": "Porsche 911",
+        "type": "Sports Car",
+        "country": "Germany",
+        "manufacturer": "Porsche AG",
+        "firstProduction": "1963",
         "performance": {
-            "topSpeed": 943,
-            "cruiseSpeed": 834,
-            "range": 2925,
-            "combatRange": null,
-            "serviceCeiling": 12500
+            "topSpeed": 205,
+            "acceleration": {
+                "0to60": 3.4,
+                "quarterMile": 11.8
+            },
+            "engine": {
+                "power": 640,
+                "torque": 590
+            }
         },
-        "features": ["Twin-engine", "Single-aisle"],
+        "features": ["Rear-engine", "Rear-wheel Drive", "Iconic Design"],
         "dimension": {
-            "length": 102,
-            "wingspan": 117,
-            "height": 41
+            "length": 4519,
+            "width": 1852,
+            "height": 1300
         },
-        "imageUrl": "https://example.com/boeing737.jpg"
+        "imageUrl": "https://example.com/porsche_911.jpg"
     },
     {
         "id": 4,
-        "name": "Airbus A320",
-        "type": "Narrow-body jet airliner",
-        "country": "Multi-national",
-        "manufacturer": "Airbus",
-        "firstFlight": "February 22, 1987",
-        "introduced": "April 28, 1988",
+        "name": "Ford Mustang",
+        "type": "Muscle Car",
+        "country": "United States",
+        "manufacturer": "Ford Motor Company",
+        "firstProduction": "1964",
         "performance": {
-            "topSpeed": 946,
-            "cruiseSpeed": 828,
-            "range": 5700,
-            "combatRange": null,
-            "serviceCeiling": 12500
+            "topSpeed": 180,
+            "acceleration": {
+                "0to60": 4.5,
+                "quarterMile": 13.0
+            },
+            "engine": {
+                "power": 450,
+                "torque": 525
+            }
         },
-        "features": ["Twin-engine", "Single-aisle"],
+        "features": ["V8 Engine", "Rear-wheel Drive", "Iconic Pony Car"],
         "dimension": {
-            "length": 38,
-            "wingspan": 35,
-            "height": 12
+            "length": 4788,
+            "width": 1916,
+            "height": 1381
         },
-        "imageUrl": "https://example.com/airbusa320.jpg"
+        "imageUrl": "https://example.com/ford_mustang.jpg"
     },
     {
         "id": 5,
-        "name": "Boeing 777",
-        "type": "Wide-body jet airliner",
+        "name": "Tesla Model S",
+        "type": "Electric Sedan",
         "country": "United States",
-        "manufacturer": "Boeing Commercial Airplanes",
-        "firstFlight": "June 12, 1994",
-        "introduced": "June 7, 1995",
+        "manufacturer": "Tesla, Inc.",
+        "firstProduction": "2012",
         "performance": {
-            "topSpeed": 990,
-            "cruiseSpeed": 905,
-            "range": 11095,
-            "combatRange": null,
-            "serviceCeiling": 13100
+            "topSpeed": 200,
+            "acceleration": {
+                "0to60": 1.99,
+                "quarterMile": 10.4
+            },
+            "engine": {
+                "power": 1020,
+                "torque": 1300
+            }
         },
-        "features": ["Twin-engine", "Long-range"],
+        "features": ["All-electric", "Autopilot", "Touchscreen Interface"],
         "dimension": {
-            "length": 63,
-            "wingspan": 65,
-            "height": 19
+            "length": 4970,
+            "width": 1964,
+            "height": 1445
         },
-        "imageUrl": "https://example.com/boeing777.jpg"
+        "imageUrl": "https://example.com/tesla_model_s.jpg"
     }
 ]
