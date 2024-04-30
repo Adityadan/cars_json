@@ -2,96 +2,149 @@
   {
     "id": 1,
     "name": "Toyota Camry",
-    "type": "Sedan",
-    "country": "Japan",
-    "manufacturer": "Toyota",
-    "performance": {
-      "topSpeed": 180,
-      "cruiseSpeed": 120,
-      "range": 500
-    },
+    "year": 2023,
+    "color": "Silver",
     "features": [
-      "Automatic Transmission",
-      "Leather Seats",
-      "Navigation System",
-      "Backup Camera"
+      "Lane Departure Warning",
+      "Adaptive Cruise Control",
+      "Apple CarPlay"
     ],
-    "imageUrl": "https://auto2000.co.id/berita-dan-tips/_next/image?url=https%3A%2F%2Fastradigitaldigiroomuat.blob.core.windows.net%2Fstorage-uat-001%2Fkelebihan-toyota-camry.png&w=3840&q=75"
+    "manufacturer": {
+      "name": "Toyota",
+      "country": "Japan"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=1"
   },
   {
     "id": 2,
     "name": "Ford Mustang",
-    "type": "Sports Car",
-    "country": "United States",
-    "manufacturer": "Ford",
-    "performance": {
-      "topSpeed": 250,
-      "cruiseSpeed": 150,
-      "range": 450
+    "year": 2022,
+    "color": "Red",
+    "features": ["Keyless Entry", "Leather Seats", "Backup Camera"],
+    "manufacturer": {
+      "name": "Ford",
+      "country": "United States"
     },
-    "features": [
-      "Manual Transmission",
-      "Rear-Wheel Drive",
-      "Sports Suspension",
-      "Convertible Top"
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ford_Mustang_VI_IMG_2513.jpg/1200px-Ford_Mustang_VI_IMG_2513.jpg"
+    "images": "https://loremflickr.com/320/240/cars?lock=2"
   },
   {
     "id": 3,
     "name": "BMW X5",
-    "type": "SUV",
-    "country": "Germany",
-    "manufacturer": "BMW",
-    "performance": {
-      "topSpeed": 200,
-      "cruiseSpeed": 140,
-      "range": 550
+    "year": 2023,
+    "color": "Black",
+    "features": ["Panoramic Sunroof", "Heated Seats", "Navigation System"],
+    "manufacturer": {
+      "name": "BMW",
+      "country": "Germany"
     },
-    "features": [
-      "All-Wheel Drive",
-      "Panoramic Sunroof",
-      "Heated Seats",
-      "Gesture Control"
-    ],
-    "imageUrl": "https://imgcdn.oto.com/large/gallery/exterior/3/2150/bmw-x5-front-angle-low-view-833566.jpg"
+    "images": "https://loremflickr.com/320/240/cars?lock=3"
   },
   {
     "id": 4,
     "name": "Honda Civic",
-    "type": "Compact Car",
-    "country": "Japan",
-    "manufacturer": "Honda",
-    "performance": {
-      "topSpeed": 170,
-      "cruiseSpeed": 110,
-      "range": 480
-    },
+    "year": 2024,
+    "color": "White",
     "features": [
-      "Fuel Efficient",
+      "Automatic Emergency Braking",
       "Lane Keeping Assist",
-      "Apple CarPlay",
       "Android Auto"
     ],
-    "imageUrl": "https://www.otoinfo.id/wp-content/uploads/2024/02/Wow-Keunggulan-Revolusioner-All-New-Honda-Civic-Type-R-2024-Bikin-Mata-Melotot-Apa-Saja-Fitur-dan-Performa-Memukau.jpg"
+    "manufacturer": {
+      "name": "Honda",
+      "country": "Japan"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=4"
   },
   {
     "id": 5,
-    "name": "Audi A4",
-    "type": "Luxury Sedan",
-    "country": "Germany",
-    "manufacturer": "Audi",
-    "performance": {
-      "topSpeed": 190,
-      "cruiseSpeed": 130,
-      "range": 520
+    "name": "Chevrolet Silverado",
+    "year": 2022,
+    "color": "Blue",
+    "features": ["Trailer Sway Control", "Apple CarPlay", "Android Auto"],
+    "manufacturer": {
+      "name": "Chevrolet",
+      "country": "United States"
     },
+    "images": "https://loremflickr.com/320/240/cars?lock=5"
+  },
+  {
+    "id": 6,
+    "name": "Audi A4",
+    "year": 2023,
+    "color": "Gray",
     "features": [
-      "Quattro All-Wheel Drive",
       "Virtual Cockpit",
       "Bang & Olufsen Sound System",
-      "Adaptive Cruise Control"
+      "Wireless Charging"
     ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg/1200px-Audi_A4_B9_sedans_%28FL%29_1X7A2441.jpg"
+    "manufacturer": {
+      "name": "Audi",
+      "country": "Germany"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=6"
+  },
+  {
+    "id": 7,
+    "name": "Mercedes-Benz E-Class",
+    "year": 2023,
+    "color": "Silver",
+    "features": [
+      "MBUX Infotainment System",
+      "Active Parking Assist",
+      "Dual-Zone Climate Control"
+    ],
+    "manufacturer": {
+      "name": "Mercedes-Benz",
+      "country": "Germany"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=7"
+  },
+  {
+    "id": 8,
+    "name": "Tesla Model 3",
+    "year": 2024,
+    "color": "Red",
+    "features": [
+      "Autopilot",
+      "Full Self-Driving Capability",
+      "Electric Powertrain"
+    ],
+    "manufacturer": {
+      "name": "Tesla",
+      "country": "United States"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=8"
+  },
+  {
+    "id": 9,
+    "name": "Volkswagen Golf",
+    "year": 2023,
+    "color": "White",
+    "features": [
+      "Adaptive Cruise Control",
+      "Blind Spot Monitor",
+      "Wireless Smartphone Charging"
+    ],
+    "manufacturer": {
+      "name": "Volkswagen",
+      "country": "Germany"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=9"
+  },
+  {
+    "id": 10,
+    "name": "Subaru Outback",
+    "year": 2024,
+    "color": "Green",
+    "features": [
+      "Symmetrical All-Wheel Drive",
+      "X-Mode",
+      "EyeSight Driver Assist"
+    ],
+    "manufacturer": {
+      "name": "Subaru",
+      "country": "Japan"
+    },
+    "images": "https://loremflickr.com/320/240/cars?lock=10"
   }
 ]
