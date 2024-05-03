@@ -1,150 +1,60 @@
 [
   {
-    "id": 1,
-    "name": "Toyota Camry",
+    "model": "Toyota Corolla",
     "year": 2023,
-    "color": "Silver",
-    "features": [
-      "Lane Departure Warning",
-      "Adaptive Cruise Control",
-      "Apple CarPlay"
-    ],
-    "manufacturer": {
-      "name": "Toyota",
-      "country": "Japan"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=1"
+    "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+    "specs": {
+      "engine": "2.0L 4-Cylinder",
+      "transmission": "Automatic",
+      "fuel-type": "Gasoline"
+    }
   },
   {
-    "id": 2,
-    "name": "Ford Mustang",
-    "year": 2022,
-    "color": "Red",
-    "features": ["Keyless Entry", "Leather Seats", "Backup Camera"],
-    "manufacturer": {
-      "name": "Ford",
-      "country": "United States"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=2"
-  },
-  {
-    "id": 3,
-    "name": "BMW X5",
-    "year": 2023,
-    "color": "Black",
-    "features": ["Panoramic Sunroof", "Heated Seats", "Navigation System"],
-    "manufacturer": {
-      "name": "BMW",
-      "country": "Germany"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=3"
-  },
-  {
-    "id": 4,
-    "name": "Honda Civic",
+    "model": "Honda Civic",
     "year": 2024,
-    "color": "White",
-    "features": [
-      "Automatic Emergency Braking",
-      "Lane Keeping Assist",
-      "Android Auto"
-    ],
-    "manufacturer": {
-      "name": "Honda",
-      "country": "Japan"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=4"
+    "features": ["Apple CarPlay", "Android Auto", "Lane Keeping Assist"],
+    "specs": {
+      "engine": "1.5L Turbocharged 4-Cylinder",
+      "transmission": "CVT",
+      "fuel-type": "Gasoline"
+    }
   },
   {
-    "id": 5,
-    "name": "Chevrolet Silverado",
+    "model": "Ford Focus",
+    "year": 2023,
+    "features": [
+      "Sync 3 Infotainment System",
+      "Rear Parking Sensors",
+      "Automatic Emergency Braking"
+    ],
+    "specs": {
+      "engine": "2.0L 4-Cylinder",
+      "transmission": "Automatic",
+      "fuel-type": "Gasoline"
+    }
+  },
+  {
+    "model": "Chevrolet Cruze",
     "year": 2022,
-    "color": "Blue",
-    "features": ["Trailer Sway Control", "Apple CarPlay", "Android Auto"],
-    "manufacturer": {
-      "name": "Chevrolet",
-      "country": "United States"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=5"
+    "features": ["7-inch Touchscreen", "Apple CarPlay", "Android Auto"],
+    "specs": {
+      "engine": "1.4L Turbocharged 4-Cylinder",
+      "transmission": "Automatic",
+      "fuel-type": "Gasoline"
+    }
   },
   {
-    "id": 6,
-    "name": "Audi A4",
+    "model": "Volkswagen Jetta",
     "year": 2023,
-    "color": "Gray",
     "features": [
-      "Virtual Cockpit",
-      "Bang & Olufsen Sound System",
-      "Wireless Charging"
-    ],
-    "manufacturer": {
-      "name": "Audi",
-      "country": "Germany"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=6"
-  },
-  {
-    "id": 7,
-    "name": "Mercedes-Benz E-Class",
-    "year": 2023,
-    "color": "Silver",
-    "features": [
-      "MBUX Infotainment System",
-      "Active Parking Assist",
-      "Dual-Zone Climate Control"
-    ],
-    "manufacturer": {
-      "name": "Mercedes-Benz",
-      "country": "Germany"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=7"
-  },
-  {
-    "id": 8,
-    "name": "Tesla Model 3",
-    "year": 2024,
-    "color": "Red",
-    "features": [
-      "Autopilot",
-      "Full Self-Driving Capability",
-      "Electric Powertrain"
-    ],
-    "manufacturer": {
-      "name": "Tesla",
-      "country": "United States"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=8"
-  },
-  {
-    "id": 9,
-    "name": "Volkswagen Golf",
-    "year": 2023,
-    "color": "White",
-    "features": [
-      "Adaptive Cruise Control",
+      "Wireless Smartphone Charging",
       "Blind Spot Monitor",
-      "Wireless Smartphone Charging"
+      "Adaptive Cruise Control"
     ],
-    "manufacturer": {
-      "name": "Volkswagen",
-      "country": "Germany"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=9"
-  },
-  {
-    "id": 10,
-    "name": "Subaru Outback",
-    "year": 2024,
-    "color": "Green",
-    "features": [
-      "Symmetrical All-Wheel Drive",
-      "X-Mode",
-      "EyeSight Driver Assist"
-    ],
-    "manufacturer": {
-      "name": "Subaru",
-      "country": "Japan"
-    },
-    "images": "https://loremflickr.com/320/240/cars?lock=10"
+    "specs": {
+      "engine": "1.4L Turbocharged 4-Cylinder",
+      "transmission": "Automatic",
+      "fuel-type": "Gasoline"
+    }
   }
 ]
