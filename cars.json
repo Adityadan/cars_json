@@ -6,7 +6,7 @@
     "specs": {
       "engine": "2.0L 4-Cylinder",
       "transmission": "Automatic",
-      "fuelType": "Gasoline"
+      "fuel-type": "Gasoline1"
     }
   },
   {
@@ -16,7 +16,7 @@
     "specs": {
       "engine": "1.5L Turbocharged 4-Cylinder",
       "transmission": "CVT",
-      "fuelType": "Gasoline"
+      "fuel-type": "Gasoline2"
     }
   },
   {
@@ -30,7 +30,7 @@
     "specs": {
       "engine": "2.0L 4-Cylinder",
       "transmission": "Automatic",
-      "fuelType": "Gasoline"
+      "fuel-type": "Gasoline3"
     }
   },
   {
@@ -40,7 +40,7 @@
     "specs": {
       "engine": "1.4L Turbocharged 4-Cylinder",
       "transmission": "Automatic",
-      "fuelType": "Gasoline"
+      "fuel-type": "Gasoline4"
     }
   },
   {
@@ -54,7 +54,7 @@
     "specs": {
       "engine": "1.4L Turbocharged 4-Cylinder",
       "transmission": "Automatic",
-      "fuelType": "Gasoline"
+      "fuel-type": "Gasoline5"
     }
   }
 ]
